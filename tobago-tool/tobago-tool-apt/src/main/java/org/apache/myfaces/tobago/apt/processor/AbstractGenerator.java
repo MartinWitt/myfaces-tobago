@@ -106,7 +106,7 @@ public abstract class AbstractGenerator extends AbstractProcessor {
     processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR,
         "<" + getClass().getSimpleName() + "> " + e.getMessage() + "\n"
             + (e.getCause() != null ? e.getCause().getMessage() + "\n" : "")
-            + out.toString());
+            + out);
   }
 
   public List<TypeElement> getTypes() {

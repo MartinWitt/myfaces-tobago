@@ -471,7 +471,7 @@ public abstract class SelectManyRendererBase<T extends AbstractUISelectManyBase>
     }
     intBuilder.append("]");
 
-    builder.insert(0, intBuilder.toString());
+    builder.insert(0, intBuilder);
 
     getPathToComponent(component.getParent(), builder);
   }
