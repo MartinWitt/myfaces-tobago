@@ -127,7 +127,7 @@ public class TestController implements Serializable {
     return testJsFiles;
   }
 
-  public class TestPage {
+  public static class TestPage {
     private final String id;
     private final String base;
     private final String label;

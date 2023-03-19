@@ -89,7 +89,7 @@ public class ForEachController implements Serializable {
     discharge = null;
   }
 
-  public class River implements Serializable {
+  public static class River implements Serializable {
     private String name;
     private int length;
     private int discharge;

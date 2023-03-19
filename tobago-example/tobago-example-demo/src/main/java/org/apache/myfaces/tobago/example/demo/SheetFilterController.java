@@ -238,7 +238,7 @@ public class SheetFilterController implements Serializable {
     return result;
   }
 
-  private class DistanceRange {
+  private static class DistanceRange {
 
     private int min;
     private int max;
